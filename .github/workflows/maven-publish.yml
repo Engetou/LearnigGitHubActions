@@ -1,1 +1,16 @@
+name: learn github action
 
+on:
+    push: 
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+
+    myfirstjob:
+        runs-on: ubuntu-latest
+        steps:
+            - name: clone my repository
+              run: echo "I am learning DevOps"
+          
