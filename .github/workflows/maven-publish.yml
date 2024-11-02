@@ -13,4 +13,10 @@ jobs:
         steps:
             - name: clone my repository
               run: echo "I am learning DevOps"
+
+    mysecondjob:
+        runs-on: ubentu-latest
+        steps:
+            - name: learn github action step
+              run:  echo "this is my secondjob"        
           
