@@ -16,6 +16,7 @@ jobs:
 
     mysecondjob:
         runs-on: ubentu-latest
+        needs: myfirstjob
         steps:
             - name: learn github action step
               run:  echo "this is my secondjob"        
